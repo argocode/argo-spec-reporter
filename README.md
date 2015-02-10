@@ -1,4 +1,4 @@
-# argo-spec-reporter
+# karma-argo-reporter
 
 A Karma unit test reporter, that logs both passing and failing unit tests to the console.
 
