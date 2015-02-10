@@ -1,17 +1,5 @@
-# karma-spec-reporter
+# argo-spec-reporter
 
-Test reporter, that prints detailed results to console (similar to mocha's spec reporter).
+A Karma unit test reporter, that logs both passing and failing unit tests to the console.
 
-To limit the number of lines logged per test 
-``` js
-//karma.conf.js
-...
-  config.set({
-    ...
-      reporters: ["spec"],
-      specReporter: {maxLogLines: 5},
-      plugins: ["karma-spec-reporter"],
-    ...
-```
-
-Take a look at the [karma-spec-reporter-example](http://github.com/mlex/karma-spec-reporter-example) repository to see the reporter in action.
+This reporter's output can be easily parsed by Phabricator, the software Argo uses for code review.
